@@ -1,0 +1,104 @@
+ /* Global Reset and Typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Header Styling */
+.hero-section {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 4px solid #d4af37;
+}
+
+.hero-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.hero-section .tagline {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+.hero-section .location {
+    font-size: 0.95rem;
+    color: #b0bec5;
+}
+
+/* Card Section Styles */
+main {
+    padding: 40px 0;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #203a43;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #111111;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+/* Lists formatting */
+.education-list, .achievements-list {
+    list-style-type: none;
+}
+
+.education-list li, .achievements-list li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.education-list li::before, .achievements-list li::before {
+    content: "▪";
+    color: #d4af37;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111111;
+    color: #888888;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
